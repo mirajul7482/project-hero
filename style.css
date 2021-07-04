@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 #name{
     color: #FFA500;
 }
-section{
+.flexable-container{
     display: flex;
 }
 .half-width{
@@ -20,7 +23,7 @@ section{
 }
 .hire-me{
     text-decoration: none;
-    background-image: linear-gradient(#F9745D, #FF9A75);
+    background-image: linear-gradient(#f55134, #f8a182);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -36,4 +39,28 @@ section{
     background-position: right;
     margin-top: 100px;
     
+}
+.Experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.Experiences-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
+}
+#web-border1{
+    border-image: linear-gradient(#F97960, #f3673d) 30;
+}
+#web-border2{
+    border-image: linear-gradient(#520ad8, #21c1f1) 30;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
 }
